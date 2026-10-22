@@ -1,0 +1,12 @@
+{
+  "name": "klayer-sonde-hooks",
+  "description": "Sonde jetable. Trace SessionStart, UserPromptSubmit, PreToolUse, PostToolUse et Stop dans une session Cowork ; teste une fois par session l'écriture dans le dossier connecté ; publie le chemin d'un corpus sous references/ ; porte une skill témoin et une skill qui exécute un script du plugin. N'écrit que dans son dossier de trace et dans un sous-dossier jetable du dossier connecté.",
+  "version": "0.4.0",
+  "author": {
+    "name": "Klayer"
+  },
+  "skills": [
+    "./skills/sonde-presence",
+    "./skills/sonde-script"
+  ]
+}

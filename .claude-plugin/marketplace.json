@@ -1,0 +1,14 @@
+{
+  "name": "klayer-sondes",
+  "owner": {
+    "name": "Klayer"
+  },
+  "description": "Marketplace jetable, instrument de mesure. Ne contient aucun livrable et n'a pas vocation à rester installée.",
+  "plugins": [
+    {
+      "name": "klayer-sonde-hooks",
+      "source": "./klayer-sonde-hooks",
+      "description": "Sonde jetable. Mesure si les hooks d'un plugin de marketplace se déclenchent dans une session Cowork, et porte une skill témoin qui atteste de la présence du plugin."
+    }
+  ]
+}
